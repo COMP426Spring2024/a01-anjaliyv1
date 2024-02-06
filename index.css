@@ -1,0 +1,158 @@
+
+/* Navigation bar */
+nav ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d6a34f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* 2. Font 1 for navigation. /* Default font (Font2 ) for heading and paragraphs*/
+    font-family: 'Roboto', sans-serif;
+
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: #573c34;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+/* 5. Use the :hover pseudo-class */
+li a:hover {
+    background-color: #845D1F;
+    color: #FFFFDD;
+}
+
+/*selector1 - at least 1 class based selector*/
+.prob-stat {
+    margin-top: 80px;
+    padding: 1rem 1rem;
+}
+
+/* Intro */
+/*selector2*/
+.intro {
+    padding: 1rem 1rem;
+}
+.background-image {
+    padding: 0px 20px 20px 20px;
+    width: 75%;
+    display: inline-block;
+
+}
+.title {
+    font-size: 18px;
+    margin-top: 80px;
+    padding: 30px 30px 30px 40px;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* heading text styles */
+h1 {
+    color: #573c34;
+    letter-spacing: 0.01em;
+}
+
+/*selector3 - at least 1 id based selector*/
+#for-index {
+    color: #573c34;
+    letter-spacing: 0.01em;
+    padding-left: 20px;
+}
+
+/*selector4,5,6,7, 8*/
+#for-about1, #for-about2, #krishna, #arjuna, #heading-media {
+    margin-top: 100px;
+    color: #573c34;
+    letter-spacing: 0.01em;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+/* paragraph text styles */
+/*selector9*/
+#main {
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    /* 3. Set the background color of some elements*/
+    background: #c65a2b;
+    color: #d9d3c6;
+    padding: 8px;
+
+}
+
+/*selector10*/
+#problem-statement {
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-size: 19px;
+    text-align: justify;
+    color: #573c34;
+    padding: 0px 20px 20px 20px;
+}
+
+/*selector11, 12*/
+#desc1, #desc2  {
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    text-align: justify;
+    color: #573c34;
+    font-size: 20px;
+    padding: 10px 210px 20px 210px;
+}
+
+/*selector13,14 - at least 1 selector relying on hierarchical relationship between two elements*/
+#char-deets1 p, #char-deets2 p {
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    text-align: justify;
+    color: #573c34;
+    font-size: 20px;
+    padding: 10px 200px 20px 200px;
+}
+
+/*selector15*/
+.gita-updesh {
+    padding: 20px 20px 20px 20px;
+    width: 40%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* 4. Set the border of some elements */
+    border: 5px solid #573c34;
+}
+
+/*selector16,17*/
+.k-img, .a-img {
+    padding: 20px 20px 20px 20px;
+    width: 20%;
+    margin-left: 40px;
+    float: left;
+    /*margin-left: auto;*/
+    margin-right: 20px;
+    /* Set the border of some elements */
+    border: 5px solid #573c34;
+}
+
+table, th, td {
+    border:2px solid #573c34;
+    margin-left: auto;
+    margin-right: auto;
+}
